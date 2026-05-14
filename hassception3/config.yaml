@@ -1,0 +1,16 @@
+name: "Woow HA Core 3"
+description: "Woow Home Assistant Core instance 3"
+version: "1.0.0"
+slug: "hassception3"
+init: false
+arch:
+  - aarch64
+  - amd64
+  - armhf
+  - armv7
+  - i386
+ports:
+  8123/tcp: 8126
+
+map:
+  - "config:rw"
