@@ -1,0 +1,4 @@
+.playwright-cli/
+*.png
+!woow_ha_core_3/icon.png
+!woow_ha_core_3/logo.png
